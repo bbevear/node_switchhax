@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>CVE-2016-4657 Switch PoC</title>
+        <style>
+            body {font-size: 2em;}
+            a {text-decoration: none; color: #000;}
+            a:hover {color: #f00; font-weight: bold;}
+        </style>
+    </head>
+    <body>
+        <h1>CVE-2016-4657 Nintendo Switch PoC</h1>
+        <ul>
+            <li><a href='javascript:go();'>🔥 go!</a></li>
+            <li><a href='javascript:document.location.reload();'>🔄 reload</a></li>
+        </ul>
+        <div id='status'>😴 waiting... click go.</div>
+
+            <script>
+                // display JS errors as alerts. Helps debugging.
+                window.onerror = function(error, url, line) {
+                    alert(error+' URL:'+url+' L:'+line);
+                };
+            </script>
+            <script src="exploit.js"></script>
+    </body>
+</html>
