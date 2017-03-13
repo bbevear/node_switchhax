@@ -11,6 +11,7 @@ npm i
 sudo node server.js
 ```
 
+Server runs on port 80 (needs root) unless specified otherwise.
 Route conntest.nintendowifi.net to your machine running this server using a proxy server of your choice (i.e. Burp). 
 
 Modified Switch Exploit by LiveOverflow. Original CVE Quertyoruiopz & Pangu Team.
